@@ -54,18 +54,15 @@ class ViewController: UIViewController {
 
         }
         task.resume()
-        print("good bye")
+        print("good hello")
 
     }
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        
-        tableView.frame = view.bounds
-        
+        tableView.frame = view.bounds   
     }
-
-
+    
 }
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
